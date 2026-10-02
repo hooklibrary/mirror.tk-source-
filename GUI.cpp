@@ -367,7 +367,7 @@ void CGUI::Update()
 			if (options::menu.visuals.watermark.getstate())
 			{
 			//	Render::Text((centerW * 2) - 400, 35, Color(250, 250, 250, (MenuAlpha - 1)), Render::Fonts::xd, "Mirror v6 by FreaK");
-				Render::Textf((centerW * 2) - 400, 15, Color(240, 240, 240, (MenuAlpha - 1)), Render::Fonts::xd,("Mirror | fantailcommunity.xyz | https://discord.gg/hGRZrXN | %s | fps: %d "), GetTimeString().c_str(), getfps());
+				Render::Textf((centerW * 2) - 400, 15, Color(240, 240, 240, (MenuAlpha - 1)), Render::Fonts::xd,("Mirror | no we dont promote discord here! | %s | fps: %d "), GetTimeString().c_str(), getfps());
 			//	Render::Text((centerW * 2) - 300, 35, Color(150, 10, 230, (MenuAlpha - 1)), Render::Fonts::xd, "%s", __DATE__);
 			}
 		}
